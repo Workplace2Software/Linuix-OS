@@ -58,15 +58,11 @@
         End
     End Sub
 
-    Private Sub DesktopClock_Click(sender As System.Object, e As System.EventArgs) Handles DesktopClock.Click
-
-    End Sub
-
     Private Sub Button3_Click(sender As System.Object, e As System.EventArgs) Handles Launcher_VirusSheild.Click
-        VirusSheild.ShowDialog()
+        VirusSheild.Show()
     End Sub
 
     Private Sub Button4_Click(sender As System.Object, e As System.EventArgs) Handles Launcher_Interwebs.Click
-        interwebs.ShowDialog()
+        interwebs.Show()
     End Sub
 End Class

@@ -25,6 +25,7 @@ Partial Class interwebs
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'WebBrowser1
@@ -51,14 +52,26 @@ Partial Class interwebs
         '
         Me.TextBox1.Location = New System.Drawing.Point(36, 3)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(576, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(473, 20)
         Me.TextBox1.TabIndex = 4
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(542, 3)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 5
+        Me.Button2.Text = "GO ! bwa"
+        Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'interwebs
         '
+        Me.AcceptButton = Me.Button2
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(639, 514)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.WebBrowser1)
@@ -75,5 +88,6 @@ Partial Class interwebs
     Friend WithEvents WebBrowser1 As System.Windows.Forms.WebBrowser
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents Button2 As System.Windows.Forms.Button
 
 End Class

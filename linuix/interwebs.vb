@@ -6,15 +6,9 @@ Public Class interwebs
         WebBrowser1.Refresh()
     End Sub
 
-    Private Sub Button2_Click(sender As System.Object, e As System.EventArgs)
-        WebBrowser1.GoBack()
-    End Sub
 
-    Private Sub Button3_Click(sender As System.Object, e As System.EventArgs)
-        WebBrowser1.GoForward()
-    End Sub
 
-    Private Sub TextBox1_Enter(sender As Object, e As System.EventArgs) Handles TextBox1.Enter
+    Private Sub Button2_Click_1(sender As System.Object, e As System.EventArgs) Handles Button2.Click
         WebBrowser1.Navigate(TextBox1.Text)
     End Sub
 End Class

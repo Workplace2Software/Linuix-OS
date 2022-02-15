@@ -60,7 +60,13 @@ Public Class LinuixSettings
         Me.Close()
     End Sub
 
-    Private Sub CheckBox1_CheckedChanged(sender As System.Object, e As System.EventArgs) Handles CheckBox1.CheckedChanged
-
+    Private Sub LinuixSettings_Shown(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Shown
+        BackgroundColor_choice.Color = My.Settings.BackgroundColour
+        If My.Settings.WhiteBGIconText Then
+            CheckBox1.Checked = True
+        Else
+            CheckBox1.Checked = False
+        End If
+        ComboBox1.Text = My.Settings.BackgroundColourSizeMode
     End Sub
 End Class

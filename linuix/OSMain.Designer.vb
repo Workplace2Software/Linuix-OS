@@ -37,7 +37,7 @@ Partial Class OSMain
         Me.Launcher_LinuixSettings.BackColor = System.Drawing.Color.LightSkyBlue
         Me.Launcher_LinuixSettings.FlatAppearance.BorderSize = 0
         Me.Launcher_LinuixSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Launcher_LinuixSettings.Image = Global.WindowsApplication1.My.Resources.Resources.PlaceHolderIcon
+        Me.Launcher_LinuixSettings.Image = Global.WindowsApplication1.My.Resources.Resources.Setting
         Me.Launcher_LinuixSettings.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Launcher_LinuixSettings.Location = New System.Drawing.Point(12, 13)
         Me.Launcher_LinuixSettings.Name = "Launcher_LinuixSettings"

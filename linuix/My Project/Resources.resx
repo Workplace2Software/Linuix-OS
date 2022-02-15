@@ -118,43 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="boot" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boot.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="scan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\scan.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ambience" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ambience.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="proxy-image" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\proxy-image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="interwebs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\interwebs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PlaceHolderIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PlaceHolderIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="proxy-image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\proxy-image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Virus-Sheild1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Virus-Sheild1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ambience" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ambience.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Sandstone" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sandstone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Virus-Sheild" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Virus-Sheild.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="metro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\metro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="proxy-image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\proxy-image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="POWER" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\POWER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Virus-Sheild1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Virus-Sheild1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Virus-Sheild" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Virus-Sheild.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="proxy-image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\proxy-image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="crash" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\crash.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="interwebs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\interwebs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="scan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scan.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\metro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boot.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Setting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Setting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

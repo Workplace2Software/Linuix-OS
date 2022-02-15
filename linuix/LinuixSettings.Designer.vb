@@ -22,6 +22,7 @@ Partial Class LinuixSettings
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(LinuixSettings))
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.OK_Button = New System.Windows.Forms.Button()
         Me.Cancel_Button = New System.Windows.Forms.Button()
@@ -55,7 +56,7 @@ Partial Class LinuixSettings
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.OK_Button, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.Cancel_Button, 1, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(137, 164)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(70, 184)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
@@ -97,7 +98,7 @@ Partial Class LinuixSettings
         Me.ComboBox1.ForeColor = System.Drawing.Color.White
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"None", "Tile", "Center", "Stretch", "Zoom"})
-        Me.ComboBox1.Location = New System.Drawing.Point(73, 40)
+        Me.ComboBox1.Location = New System.Drawing.Point(110, 37)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(79, 21)
         Me.ComboBox1.TabIndex = 4
@@ -109,7 +110,7 @@ Partial Class LinuixSettings
         Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(65, Byte), Integer), CType(CType(65, Byte), Integer))
         Me.Button1.FlatAppearance.BorderSize = 0
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(113, 62)
+        Me.Button1.Location = New System.Drawing.Point(111, 62)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(115, 23)
         Me.Button1.TabIndex = 2
@@ -123,7 +124,7 @@ Partial Class LinuixSettings
         Me.ListBox1.ForeColor = System.Drawing.Color.White
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.Items.AddRange(New Object() {"metro", "Sandstone"})
-        Me.ListBox1.Location = New System.Drawing.Point(49, 6)
+        Me.ListBox1.Location = New System.Drawing.Point(110, 6)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(115, 28)
         Me.ListBox1.TabIndex = 1
@@ -131,7 +132,7 @@ Partial Class LinuixSettings
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(7, 64)
+        Me.Label2.Location = New System.Drawing.Point(7, 65)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(101, 13)
         Me.Label2.TabIndex = 0
@@ -140,7 +141,7 @@ Partial Class LinuixSettings
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(7, 43)
+        Me.Label3.Location = New System.Drawing.Point(7, 42)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(60, 13)
         Me.Label3.TabIndex = 0
@@ -149,7 +150,7 @@ Partial Class LinuixSettings
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(7, 10)
+        Me.Label1.Location = New System.Drawing.Point(7, 8)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(39, 13)
         Me.Label1.TabIndex = 0
@@ -163,7 +164,7 @@ Partial Class LinuixSettings
         '
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.MiscPage)
-        Me.TabControl1.Location = New System.Drawing.Point(13, 13)
+        Me.TabControl1.Location = New System.Drawing.Point(19, 30)
         Me.TabControl1.Multiline = True
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
@@ -191,7 +192,7 @@ Partial Class LinuixSettings
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(99, 88)
+        Me.CheckBox1.Location = New System.Drawing.Point(110, 90)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(15, 14)
         Me.CheckBox1.TabIndex = 5
@@ -200,7 +201,7 @@ Partial Class LinuixSettings
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(6, 88)
+        Me.Label4.Location = New System.Drawing.Point(7, 89)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(86, 13)
         Me.Label4.TabIndex = 0
@@ -244,10 +245,10 @@ Partial Class LinuixSettings
         'CloseButton
         '
         Me.CloseButton.AutoSize = True
-        Me.CloseButton.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CloseButton.Location = New System.Drawing.Point(277, 1)
+        Me.CloseButton.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CloseButton.Location = New System.Drawing.Point(272, 1)
         Me.CloseButton.Name = "CloseButton"
-        Me.CloseButton.Size = New System.Drawing.Size(15, 15)
+        Me.CloseButton.Size = New System.Drawing.Size(21, 23)
         Me.CloseButton.TabIndex = 0
         Me.CloseButton.Text = "X"
         '
@@ -258,17 +259,16 @@ Partial Class LinuixSettings
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer), CType(CType(25, Byte), Integer))
         Me.CancelButton = Me.Cancel_Button
-        Me.ClientSize = New System.Drawing.Size(295, 205)
+        Me.ClientSize = New System.Drawing.Size(295, 218)
         Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.Panel1)
         Me.ForeColor = System.Drawing.Color.White
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "LinuixSettings"
-        Me.ShowInTaskbar = False
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "LinuixSettings"
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TabControl1.ResumeLayout(False)

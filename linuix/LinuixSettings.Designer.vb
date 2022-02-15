@@ -270,6 +270,7 @@ Partial Class LinuixSettings
         Me.MinimizeBox = False
         Me.Name = "LinuixSettings"
         Me.Text = "LinuixSettings"
+        Me.TopMost = True
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)

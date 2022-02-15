@@ -24,12 +24,12 @@ Partial Class VirusSheild
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.TableLayoutPanel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -47,6 +47,15 @@ Partial Class VirusSheild
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(128, 29)
         Me.TableLayoutPanel1.TabIndex = 0
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(67, 3)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(58, 23)
+        Me.Button1.TabIndex = 5
+        Me.Button1.Text = "Delete"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'PictureBox1
         '
@@ -90,15 +99,6 @@ Partial Class VirusSheild
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "1 Virus(s) found!"
         '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(67, 3)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(58, 23)
-        Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Delete"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
         'VirusSheild
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -116,6 +116,7 @@ Partial Class VirusSheild
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "VirusSheild"
+        Me.TopMost = True
         Me.TableLayoutPanel1.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

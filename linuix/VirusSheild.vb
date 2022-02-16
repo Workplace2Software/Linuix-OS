@@ -42,7 +42,7 @@ Public Class VirusSheild
     Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
         My.Computer.Audio.Play(My.Resources.crash, AudioPlayMode.Background)
         MessageBox.Show("Error Code: you-cant-delete-windows,-windows-delete-YOU", "Linuix has crashed")
-        Application.Exit()
+        Me.Close()
 
     End Sub
 End Class

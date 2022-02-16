@@ -30,6 +30,8 @@ Partial Class OSMain
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Launcher_VirusSheild = New System.Windows.Forms.Button()
         Me.Launcher_Interwebs = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.NoLeavingLinuix = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'Launcher_LinuixSettings
@@ -108,6 +110,23 @@ Partial Class OSMain
         Me.Launcher_Interwebs.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Launcher_Interwebs.UseVisualStyleBackColor = False
         '
+        'Label1
+        '
+        Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Black
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(694, 565)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(94, 26)
+        Me.Label1.TabIndex = 5
+        Me.Label1.Text = "Linuix OS v0.0.1.2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "CollabVM Edition"
+        '
+        'NoLeavingLinuix
+        '
+        Me.NoLeavingLinuix.Enabled = True
+        Me.NoLeavingLinuix.Interval = 1000
+        '
         'OSMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -115,6 +134,7 @@ Partial Class OSMain
         Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.metro
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 600)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Launcher_Interwebs)
         Me.Controls.Add(Me.Launcher_VirusSheild)
         Me.Controls.Add(Me.Button2)
@@ -127,6 +147,7 @@ Partial Class OSMain
         Me.Text = "Linuix OS v0.0.11"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Launcher_LinuixSettings As System.Windows.Forms.Button
@@ -135,4 +156,6 @@ Partial Class OSMain
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Launcher_VirusSheild As System.Windows.Forms.Button
     Friend WithEvents Launcher_Interwebs As System.Windows.Forms.Button
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents NoLeavingLinuix As System.Windows.Forms.Timer
 End Class

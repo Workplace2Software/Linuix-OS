@@ -13,7 +13,7 @@ Public Class Form1
         Else
             Timer1.Enabled = False
             Me.Hide()
-            OSMain.show()
+            OSMain.Show()
         End If
     End Sub
     ' oagk etp[nmjg wtnj a bpxg g-p[ve

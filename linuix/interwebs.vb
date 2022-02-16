@@ -12,7 +12,10 @@ Public Class interwebs
         WebBrowser1.Navigate(TextBox1.Text)
     End Sub
 
-    Private Sub interwebs_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
-    End Sub
+    Private Sub WebBrowser1_Navigating(sender As Object, e As System.Windows.Forms.WebBrowserNavigatingEventArgs) Handles WebBrowser1.Navigating
+
+
+    End Sub ' PRO Tip 4U
 End Class
+' thank you

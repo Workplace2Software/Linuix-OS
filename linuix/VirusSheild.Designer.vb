@@ -114,7 +114,7 @@ Partial Class VirusSheild
         Me.MinimizeBox = False
         Me.Name = "VirusSheild"
         Me.ShowInTaskbar = False
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "VirusSheild"
         Me.TopMost = True
         Me.TableLayoutPanel1.ResumeLayout(False)

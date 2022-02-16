@@ -71,4 +71,8 @@
     Private Sub Button4_Click(sender As System.Object, e As System.EventArgs) Handles Launcher_Interwebs.Click
         interwebs.Show()
     End Sub
+
+    Private Sub Button1_Click_1(sender As System.Object, e As System.EventArgs) Handles Button1.Click
+        apps.Show()
+    End Sub
 End Class

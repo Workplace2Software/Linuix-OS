@@ -30,6 +30,7 @@ Partial Class OSMain
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Launcher_VirusSheild = New System.Windows.Forms.Button()
         Me.Launcher_Interwebs = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Launcher_LinuixSettings
@@ -108,6 +109,21 @@ Partial Class OSMain
         Me.Launcher_Interwebs.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Launcher_Interwebs.UseVisualStyleBackColor = False
         '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Image = Global.WindowsApplication1.My.Resources.Resources.normal_letter_A
+        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button1.Location = New System.Drawing.Point(240, 12)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(70, 96)
+        Me.Button1.TabIndex = 5
+        Me.Button1.Text = "A pps downloder"
+        Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button1.UseVisualStyleBackColor = False
+        '
         'OSMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -115,6 +131,7 @@ Partial Class OSMain
         Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.metro
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 600)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Launcher_Interwebs)
         Me.Controls.Add(Me.Launcher_VirusSheild)
         Me.Controls.Add(Me.Button2)
@@ -135,4 +152,5 @@ Partial Class OSMain
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Launcher_VirusSheild As System.Windows.Forms.Button
     Friend WithEvents Launcher_Interwebs As System.Windows.Forms.Button
+    Friend WithEvents Button1 As System.Windows.Forms.Button
 End Class

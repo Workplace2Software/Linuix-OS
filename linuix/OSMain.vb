@@ -1,5 +1,10 @@
 ﻿Public Class OSMain
     Dim WallpaperFile As String
+
+    Private Sub OSMain_Disposed(sender As Object, e As System.EventArgs) Handles Me.Disposed
+        Form1.Close()
+
+    End Sub
     Private Sub OSMain_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         Me.ApplySettings()
     End Sub
@@ -54,6 +59,7 @@
     End Sub
 
     Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
+        Form1.Close()
         Application.Exit()
         End
     End Sub
@@ -64,5 +70,9 @@
 
     Private Sub Button4_Click(sender As System.Object, e As System.EventArgs) Handles Launcher_Interwebs.Click
         interwebs.Show()
+    End Sub
+
+    Private Sub Button1_Click_1(sender As System.Object, e As System.EventArgs) Handles Button1.Click
+        apps.Show()
     End Sub
 End Class

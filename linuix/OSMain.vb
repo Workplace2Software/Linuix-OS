@@ -73,6 +73,6 @@
     End Sub
 
     Private Sub Button1_Click_1(sender As System.Object, e As System.EventArgs) Handles Button1.Click
-        apps.Show()
+        MessageBox.Show("we are not open yet", "warngin")
     End Sub
 End Class

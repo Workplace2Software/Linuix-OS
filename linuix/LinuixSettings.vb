@@ -69,4 +69,5 @@ Public Class LinuixSettings
         End If
         ComboBox1.Text = My.Settings.BackgroundColourSizeMode
     End Sub
+
 End Class

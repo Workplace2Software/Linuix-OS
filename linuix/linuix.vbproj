@@ -261,6 +261,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="PlaceHolderIcon.ico" />
+    <None Include="Resources\MalwareFound.wav" />
     <None Include="Resources\normal letter A.png" />
     <None Include="Resources\Setting.png" />
     <None Include="Resources\interwebs.png" />

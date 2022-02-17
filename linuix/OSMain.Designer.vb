@@ -31,6 +31,7 @@ Partial Class OSMain
         Me.Launcher_VirusSheild = New System.Windows.Forms.Button()
         Me.Launcher_Interwebs = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.OSVersionDeclaration = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Launcher_LinuixSettings
@@ -124,6 +125,19 @@ Partial Class OSMain
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button1.UseVisualStyleBackColor = False
         '
+        'OSVersionDeclaration
+        '
+        Me.OSVersionDeclaration.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.OSVersionDeclaration.AutoSize = True
+        Me.OSVersionDeclaration.BackColor = System.Drawing.Color.Black
+        Me.OSVersionDeclaration.ForeColor = System.Drawing.Color.White
+        Me.OSVersionDeclaration.Location = New System.Drawing.Point(667, 571)
+        Me.OSVersionDeclaration.Name = "OSVersionDeclaration"
+        Me.OSVersionDeclaration.Size = New System.Drawing.Size(130, 26)
+        Me.OSVersionDeclaration.TabIndex = 6
+        Me.OSVersionDeclaration.Text = "Linuix OS v0.0.1.3" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "This is pre-alpha software!"
+        Me.OSVersionDeclaration.TextAlign = System.Drawing.ContentAlignment.BottomRight
+        '
         'OSMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -131,6 +145,7 @@ Partial Class OSMain
         Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.metro
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 600)
+        Me.Controls.Add(Me.OSVersionDeclaration)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Launcher_Interwebs)
         Me.Controls.Add(Me.Launcher_VirusSheild)
@@ -144,6 +159,7 @@ Partial Class OSMain
         Me.Text = "Linuix OS v0.0.11"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Launcher_LinuixSettings As System.Windows.Forms.Button
@@ -153,4 +169,5 @@ Partial Class OSMain
     Friend WithEvents Launcher_VirusSheild As System.Windows.Forms.Button
     Friend WithEvents Launcher_Interwebs As System.Windows.Forms.Button
     Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents OSVersionDeclaration As System.Windows.Forms.Label
 End Class

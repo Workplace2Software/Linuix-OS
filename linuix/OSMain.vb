@@ -7,6 +7,7 @@
     End Sub
     Private Sub OSMain_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         Me.ApplySettings()
+        ToolTip1.SetToolTip(PictureBox1, "DT Assistant 1.0")
     End Sub
 
     Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Launcher_LinuixSettings.Click
@@ -74,5 +75,15 @@
 
     Private Sub Button1_Click_1(sender As System.Object, e As System.EventArgs) Handles Button1.Click
         MessageBox.Show("we are not open yet", "warngin")
+        apps.Show()
+    End Sub
+
+
+    Private Sub PictureBox1_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox1.Click
+        DT.Show()
+    End Sub
+
+    Private Sub Button3_Click_1(sender As System.Object, e As System.EventArgs) Handles Button3.Click
+        file.Show()
     End Sub
 End Class

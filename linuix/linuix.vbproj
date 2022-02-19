@@ -76,16 +76,20 @@
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>CBA1103A00F7EE623B3D377A2FF247BA5BF934C4</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>D1A26B144D829F0D5BAFAC2AAAECF168270A5FA6</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>linuix_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -115,6 +119,18 @@
       <DependentUpon>Dialog1.vb</DependentUpon>
     </Compile>
     <Compile Include="Dialog1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog2.Designer.vb">
+      <DependentUpon>Dialog2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="file.Designer.vb">
+      <DependentUpon>file.vb</DependentUpon>
+    </Compile>
+    <Compile Include="file.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.vb">
@@ -167,6 +183,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Dialog1.resx">
       <DependentUpon>Dialog1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog2.resx">
+      <DependentUpon>Dialog2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="file.resx">
+      <DependentUpon>file.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
@@ -261,6 +283,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="PlaceHolderIcon.ico" />
+    <None Include="Resources\Screenshot 2022-02-17 at 17.52.51.png" />
     <None Include="Resources\MalwareFound.wav" />
     <None Include="Resources\normal letter A.png" />
     <None Include="Resources\Setting.png" />

@@ -70,4 +70,7 @@ Public Class LinuixSettings
         ComboBox1.Text = My.Settings.BackgroundColourSizeMode
     End Sub
 
+    Private Sub Panel1_Paint(sender As System.Object, e As System.Windows.Forms.PaintEventArgs) Handles Panel1.Paint
+
+    End Sub
 End Class

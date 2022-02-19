@@ -32,6 +32,10 @@ Partial Class OSMain
         Me.Launcher_Interwebs = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.OSVersionDeclaration = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.Button3 = New System.Windows.Forms.Button()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Launcher_LinuixSettings
@@ -121,7 +125,7 @@ Partial Class OSMain
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(70, 96)
         Me.Button1.TabIndex = 5
-        Me.Button1.Text = "A pps downloder"
+        Me.Button1.Text = " A pps Lacher"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button1.UseVisualStyleBackColor = False
         '
@@ -131,12 +135,39 @@ Partial Class OSMain
         Me.OSVersionDeclaration.AutoSize = True
         Me.OSVersionDeclaration.BackColor = System.Drawing.Color.Black
         Me.OSVersionDeclaration.ForeColor = System.Drawing.Color.White
-        Me.OSVersionDeclaration.Location = New System.Drawing.Point(667, 571)
+        Me.OSVersionDeclaration.Location = New System.Drawing.Point(658, 571)
         Me.OSVersionDeclaration.Name = "OSVersionDeclaration"
-        Me.OSVersionDeclaration.Size = New System.Drawing.Size(130, 26)
+        Me.OSVersionDeclaration.Size = New System.Drawing.Size(140, 65)
         Me.OSVersionDeclaration.TabIndex = 6
-        Me.OSVersionDeclaration.Text = "Linuix OS v0.0.1.3" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "This is pre-alpha software!"
+        Me.OSVersionDeclaration.Text = "Linuix OS v0.0.1.4" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Hard work made for leaking!" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "suck on it microsoft"
         Me.OSVersionDeclaration.TextAlign = System.Drawing.ContentAlignment.BottomRight
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox1.Image = Global.WindowsApplication1.My.Resources.Resources.Screenshot_2022_02_17_at_17_52_51
+        Me.PictureBox1.Location = New System.Drawing.Point(88, 538)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(50, 50)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 7
+        Me.PictureBox1.TabStop = False
+        Me.PictureBox1.Visible = False
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.LightSkyBlue
+        Me.Button3.FlatAppearance.BorderSize = 0
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.Image = Global.WindowsApplication1.My.Resources.Resources.PlaceHolderIcon
+        Me.Button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button3.Location = New System.Drawing.Point(316, 13)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(70, 96)
+        Me.Button3.TabIndex = 8
+        Me.Button3.Text = "File" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Looker"
+        Me.Button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'OSMain
         '
@@ -145,6 +176,8 @@ Partial Class OSMain
         Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.metro
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 600)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.OSVersionDeclaration)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Launcher_Interwebs)
@@ -158,6 +191,7 @@ Partial Class OSMain
         Me.Name = "OSMain"
         Me.Text = "Linuix OS v0.0.11"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -170,4 +204,7 @@ Partial Class OSMain
     Friend WithEvents Launcher_Interwebs As System.Windows.Forms.Button
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents OSVersionDeclaration As System.Windows.Forms.Label
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents ToolTip1 As System.Windows.Forms.ToolTip
+    Friend WithEvents Button3 As System.Windows.Forms.Button
 End Class

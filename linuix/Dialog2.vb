@@ -7,7 +7,7 @@ Public Class DT
         If TextBox1.Text = "" Then
             MessageBox.Show("Hello to you to!", "DT's Responce:")
         ElseIf TextBox1.Text = "Where to buy a pet russian dolphin?" Then
-            MessageBox.Show("Frankly i beleve that is a stupid question and i want to know why it was asked.", "DT's Responce")
+            MessageBox.Show("Frankly i beleve that is a stupid question and what makes a dolphin russian? What defines a dophin's ?", "DT's Responce")
         End If
     End Sub
 End Class
